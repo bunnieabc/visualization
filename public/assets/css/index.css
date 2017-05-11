@@ -1,0 +1,53 @@
+*:not(.fa) {
+  font-family: xingothic-tc;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  line-height: 1.7;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: #17d4ed;
+  background: linear-gradient(to bottom, #17d4ed 0%, #501fd9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17d4ed', endColorstr='#501fd9', GradientType=0 );
+}
+
+.chart {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.bar {
+  width: 2px;
+  height: 150px;
+  margin: 0px 1px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: .1s linear;
+}
